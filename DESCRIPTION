@@ -1,0 +1,15 @@
+Package: nestpas
+Title: Pipe Friendly Aliases
+Version: 0.0.1
+Authors@R: person("Stefan Milton", "Bache", email = "stefan@stefanbache.dk",
+  role = c("aut", "cre"))
+Description: This collection of aliases make certain operations more natural
+    and expressive with the 'magrittr' pipe operator. The collection was previously
+    included in 'magrittr', but is now provided as a separate package.
+    Examples are `add` for `+`, `extract` for `[`,
+    and to explain the name `nes't pas` for `!`.
+Depends:
+    R (>= 3.0.0)
+Imports: magrittr
+License: MIT + file LICENSE
+RoxygenNote: 5.0.1
